@@ -18,7 +18,6 @@ Usage: fetch -h
    -U       Update Raspberry Pi Userland
 
    -u       Update Fetch
-   -s       Not working? Setup Fetch
 
 Should you come across any bugs, either open an issue on GitHub or talk
 with us directly by joining our channel on Freenode; #debianarm-port

@@ -11,7 +11,7 @@ Fetch, Linux kernel installer for the Raspberry Pi Image Builder
 https://github.com/pyavitz/rpi-img-builder
 Usage: fetch -h
 
-   -1       Linux 5.10.y LTS
+   -1       Linux 5.15.y LTS
    -2       Linux Stable Branch
    -b       Update Boot Binaries
    -f       Update Wifi/BT Firmware

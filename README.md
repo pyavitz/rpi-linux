@@ -20,5 +20,5 @@ Usage: fetch -h
    -u       Update Fetch
 
 Should you come across any bugs, either open an issue on GitHub or talk
-with us directly by joining our channel on Freenode; #debianarm-port
+with us directly by joining our channel on Libera; #arm-img-builder
 ```

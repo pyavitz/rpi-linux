@@ -1,5 +1,5 @@
 # [Raspberry Pi Linux Kernels](https://github.com/pyavitz/rpi-img-builder)
-### Supported: Debian, Devuan & Ubuntu
+### Supported: [Debian, Devuan & Ubuntu](https://github.com/pyavitz/binary/releases/tag/images)
 **Download installer**
 
 ```sh

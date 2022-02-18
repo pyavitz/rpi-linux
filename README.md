@@ -4,7 +4,6 @@
 
 ```sh
 if [ -e /usr/local/bin/fetch ]; then
-      :;
       fetch -u;
 else
       sudo rm -f /usr/local/bin/fetch;

@@ -3,8 +3,15 @@
 **Download installer**
 
 ```sh
-sudo wget -cq https://github.com/pyavitz/scripts/raw/master/fetch -P /usr/local/bin
-sudo chmod +x /usr/local/bin/fetch
+if [ -e /usr/local/bin/fetch ]; then
+      :;
+      fetch -u;
+else
+      sudo rm -f /usr/local/bin/fetch;
+      sudo wget -cq https://github.com/pyavitz/scripts/raw/master/fetch -P /usr/local/bin;
+      sudo chmod +x $(command -v fetch);
+      fetch -h;
+fi
 ```
 ```sh
 Fetch, Linux kernel installer for the Raspberry Pi Image Builder

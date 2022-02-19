@@ -6,7 +6,6 @@
 if [ -e /usr/local/bin/fetch ]; then
       fetch -u;
 else
-      sudo rm -f /usr/local/bin/fetch;
       sudo wget -cq https://github.com/pyavitz/scripts/raw/master/fetch -P /usr/local/bin;
       sudo chmod +x $(command -v fetch);
       fetch -h;

@@ -18,7 +18,6 @@ Usage: fetch -h
 
    -1       Linux 5.15.y LTS
    -2       Linux Stable Branch
-   -b       Update Boot Binaries
    -f       Update Wifi/BT Firmware
    -U       Update Raspberry Pi Userland
 

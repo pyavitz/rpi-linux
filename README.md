@@ -3,7 +3,7 @@
 **Download installer**
 
 ```sh
-if [ -e /usr/local/bin/fetch ]; then
+if [ `command -v fetch` ]; then
       fetch -u;
 else
       sudo wget -cq https://github.com/pyavitz/scripts/raw/master/fetch -P /usr/local/bin;

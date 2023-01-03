@@ -1,4 +1,5 @@
 ### FETCH
 ```sh
-Future kernel builds are no longer supported. 01.01.23
+I will no longer be building new kernels or supporting them using fetch.
+01.01.23
 ```
